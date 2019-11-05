@@ -3,21 +3,21 @@
 import Vue from 'vue'
 import vuetify from './plugins/vuetify'
 import App from './App.vue'
-// import router from './router'
+import router from './router'
 //import './stylus/main.styl'
 // import { store, backend } from './store'
 import 'vuetify/dist/vuetify.min.css'
 // import '@mdi/font/css/materialdesignicons.css'
-import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+// import VueScrollTo from 'vue-scrollto'
 
 
 Vue.config.productionTip = false
-
 // backend.init( appConfig)
 
 /* eslint-disable no-new */
 new Vue({
-  // router,
+  router,
   // store,
   render: h => h(App),
   template: '<App/>',

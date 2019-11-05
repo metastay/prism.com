@@ -6,7 +6,7 @@
       <v-layout row align-center my-3>
         <v-flex shrink pa-4>
           <v-avatar tile>
-            <v-img src="../assets/img/pyramid-chart.svg" ></v-img>
+            <v-img src="../assets/logo.svg" ></v-img>
           </v-avatar>
         </v-flex>
         <v-flex >

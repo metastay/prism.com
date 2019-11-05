@@ -14,7 +14,7 @@
       </v-card>
     </v-flex>
     <v-flex md6>
-      <v-img src="../assets/img/heading/process.jpg"></v-img>
+      <v-img src="../assets/img/heading/heading-2.jpg"></v-img>
     </v-flex>
   </v-layout>
 </template>

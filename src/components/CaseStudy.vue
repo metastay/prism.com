@@ -18,8 +18,8 @@
             ></span>
           </template>
           <div class="py-4">
-            <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">{{year.title}}</h2>
-            <div v-html="year.description">
+            <h2 :class="`headline  mb-4 ${year.color}--text`">{{year.title}}</h2>
+            <div :class="year.color+'--text font-weight-light'" v-html="year.description">
             </div>
           </div>
         </v-timeline-item>
@@ -35,28 +35,28 @@ import { Vue, Component, Prop, Emit, Watch } from "vue-property-decorator";
 export default class CaseStudy extends Vue {
   private years = [
         {
-          color: 'cyan',
+          color: 'primary',
           year: 'May 2017',
           title: 'State of Affairs',
           description: '<ul> <li>Use home grown application.</li> <li>Each report takes 2-3 days</li><li>Thruput around 4000 a month </li><li>Not able to scale, difficult to change </li><li>Difficult to add more data points</li><li>Lack of supervision</li></ul>',
         },
         {
-          color: 'orange',
+          color: 'blue',
           year: 'Aug 2017',
           title: 'Prism deployed in production',
           description: '<ul> <li>2 Flows</li><li>14 Tasks</li></ul>',
         },
         {
-          color: 'cyan',
+          color: 'primary',
           year: 'Aug 2018',
-          title: 'Prism deployed in production',
+          title: 'After 1 year',
           description: '<ul> <li>29 Flows got added</li><li>169 Tasks got added</li><li>Replacing 8 Legacy Applications</li></ul>',
         },
         {
-          color: 'orange',
+          color: 'blue',
           year: 'Aug 2019',
-          title: 'Prism deployed in production',
-          description: '<ul> <li>33 Flows</li><li>195 Tasks</li><li>Processes got stable after iterative changes.</li><li>process optimized</li><li>TAT increased significatly</li></ul>',
+          title: 'After 2 years +',
+          description: '<ul> <li>33 Flows</li><li>195 Tasks</li><li>Processes got stable after iterative changes.</li><li>Process optimized</li><li>TAT increased significantly</li></ul>',
         },
       ];
 }

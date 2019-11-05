@@ -7,17 +7,17 @@
       <v-card
         class="mx-auto"
       >
-        <v-card-title>
+        <v-card-title >
           <v-avatar tile>
             <v-img
               src="../assets/img/testimonials/probe.png"
               left
             ></v-img>
           </v-avatar>
-          <span class="title font-weight-light pl-3">Probe Information Systems, Private Limited.</span>
+          <span class="subtitle-1 font-weight-light pl-5">Probe Information Systems, Private Limited.</span>
         </v-card-title>
 
-        <v-card-text class="headline font-weight-light">
+        <v-card-text class="headline font-weight-light font-italic">
           <blockquote class="blockquote">"Prism has made our workflows extremely easy to implement and modify (as we keep optimising them). In fact, having your team doing the implementation and deployment management, has given our continuous improvements a real boost.</blockquote>
           <blockquote class="blockquote">The workflow designers love it for the simplicity of integration. The operation supervisors love it for the insights they get about the workforce.
           With Focus on the anvil, I think we have it all now.."</blockquote>
@@ -33,7 +33,10 @@
             </v-list-item-avatar>
 
             <v-list-item-content>
-              <v-list-item-title>Gautam Dan - CTO</v-list-item-title>
+              <v-list-item-title>
+                Gautam Dan - CTO
+              </v-list-item-title>
+
             </v-list-item-content>
           </v-list-item>
         </v-card-actions>

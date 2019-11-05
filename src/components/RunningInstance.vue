@@ -11,7 +11,7 @@
           <v-layout column align-center>
             <v-flex mt-4>
               <v-avatar tile>
-                <v-img src="../assets/img/planning.png" ></v-img>
+                <v-img src="../assets/img/running/flow.png" ></v-img>
               </v-avatar>
             </v-flex>
             <v-flex>
@@ -32,7 +32,7 @@
           <v-layout column align-center>
             <v-flex mt-4>
               <v-avatar tile>
-                <v-img src="../assets/img/rocket-launch.png" ></v-img>
+                <v-img src="../assets/img/running/performance.png" ></v-img>
               </v-avatar>
             </v-flex>
             <v-flex>
@@ -53,7 +53,7 @@
           <v-layout column align-center>
             <v-flex mt-4>
               <v-avatar tile>
-                <v-img src="../assets/img/time-management.png" ></v-img>
+                <v-img src="../assets/img/running/maintenance.png" ></v-img>
               </v-avatar>
             </v-flex>
             <v-flex>

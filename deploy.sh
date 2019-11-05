@@ -23,6 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:sagarmahapatra/foo.git master:gh-pages
 
 # if you are deploying to https://github.com/<USERNAME>/<REPO>.git
-git push -f https://github.com/metastay/prism.com.git master:gh-pages
+git push -f https://sagar-metastay@github.com/metastay/prism.com.git master:gh-pages
 
 cd -

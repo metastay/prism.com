@@ -42,7 +42,7 @@
     </v-flex>
     
     <v-flex md3 >
-      <v-card tile raised>
+      <v-card tile flat>
         <v-img src="../assets/img/technology/custom-app-side.png"></v-img>
       </v-card>
     </v-flex>
